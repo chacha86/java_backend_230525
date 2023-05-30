@@ -38,7 +38,7 @@ public class Array1 {
 
 
         // 배열 선언 및 초기화
-        int[] arr2 = {10,20,30,40,50}; // 길이 지정 X
+        int[] arr2 = {10,20,30,40,50,60,70,80}; // 길이 지정 X
 
         System.out.println(arr[0]); // 배열의 시작은 0이다.
         System.out.println(arr[1]);
@@ -53,5 +53,9 @@ public class Array1 {
 
         // 배열은 같은 자료형만 저장 가능하다.
         //arr[0] = "바나나"; // int 배열에 String을 저장하려고 하면 안된다.
+
+        // 배열의 길이 정보 구하는 방법
+        System.out.println(arr.length);
+        System.out.println(arr2.length);
     }
 }
