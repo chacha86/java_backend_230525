@@ -6,7 +6,7 @@ public class Main {
         System.out.println("차태진");
         System.out.println("10" + "10"); // 숫자가 아님
         System.out.println(10 + 10); // 숫자
-
+        System.out.println("git pull 이후 작업");
 
 
     }
