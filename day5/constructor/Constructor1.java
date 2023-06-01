@@ -37,14 +37,15 @@ class Person {
     // 2. 메서드이름을 꼭! 클래스명과 동일하게 지어야 함.
     // 3. 이 메서드는 반드시 실행됨.
 
-    public Person(int a, int b, String c) {
+    public Person(int no, int age, String name) {
         System.out.println("사람이 한명 생성됨.");
-        System.out.println("번호 : " + a);
-        System.out.println("나이 : " + b);
-        System.out.println("이름 : " + c);
-        no = a;
-        age = b;
-        name = c;
+        System.out.println("번호 : " + no);
+        System.out.println("나이 : " + age);
+        System.out.println("이름 : " + name);
+
+        this.no = no;
+        this.age = age;
+        this.name = name;
     }
 
     // 처리
