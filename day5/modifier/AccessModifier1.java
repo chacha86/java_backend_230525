@@ -15,6 +15,7 @@ public class AccessModifier1 { // 접근제어자
 }
 
 class Test2 {
+
     private int num = 10; // default 접근제어자
 
     public void printNum() {
