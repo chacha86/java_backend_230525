@@ -3,25 +3,37 @@ package day6.casting;
 public class Casting1 {
     public static void main(String[] args) {
 
-        무기 a무기 = new 칼();
-        a무기.공격();
+        int a = 10;
+
+        // 다형성
+        Weapon aweapon = new Sword();
+        aweapon.attack();
         // 출력 : 칼로 공격합니다.
 
-        a무기 = new 활();
-        a무기.공격();
+        aweapon = new Bow();
+        aweapon.attack();
 //        // 출력 : 활로 공격합니다.
+
     }
 }
 
-class 무기 {
-    void 공격() {
+class Weapon {
+    void attack() {
+
+    }
+}
+
+class Sword extends Weapon {
+    void slash() {
+
+    }
+
+    void attack() {
         System.out.println("칼로 공격");
     }
 }
-
-class 칼 extends 무기 {
-
-}
-class 활 extends 무기 {
-
+class Bow extends Weapon {
+    void attack() {
+        System.out.println("활로 공격");
+    }
 }
