@@ -1,4 +1,4 @@
-package day7;
+package day7.ConstructorAd;
 
 public class Overloading1 {
     public static void main(String[] args) {
@@ -61,7 +61,7 @@ class 저장소 {
     static void 저장(사람 v) {
 
     }
-    
+
     static void 저장(사과 v) {
 
     }

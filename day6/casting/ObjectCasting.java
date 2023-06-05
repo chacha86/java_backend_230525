@@ -7,7 +7,6 @@ public class ObjectCasting {
         Cat c1 = new Cat();
         Dog d1 = new Dog();
 
-
         //Dog d2 = new Cat();
 
         // 객체 형변환
